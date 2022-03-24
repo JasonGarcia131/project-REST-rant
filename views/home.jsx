@@ -8,7 +8,10 @@ function home(){
             <main>
                 <h1>HOME</h1>
                 <div>
-                    <img src="./img/kyle-johnson-TEZZzuQTt8g-unsplash.jpg" alt="" />
+                    <img src="./img/pizza.jpg" alt="pizza with many ingridients" />
+                </div>
+                <div>
+                    Photo by Chad Montano
                 </div>
                 <a href="/places">
                 <button className = 'btn-primary'>Places Pages</button>
