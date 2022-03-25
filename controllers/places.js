@@ -1,28 +1,30 @@
 const router = require('express').Router()
-//Not sure if this is where this goes. refer back to activity 3
-let places = [{
-    name: 'H-Thai-ML',
-    city: 'Seattle',
-    state: 'WA',
-    cuisines: 'Thai, Pan-Asian',
-    pic: '/images/h-thai-ml-tables.png'
-  }, {
-      name: 'Coding Cat Cafe',
-      city: 'Phoenix',
-      state: 'AZ',
-      cuisines: 'Coffee, Bakery',
-      pic: '/img/pizza.jpg'
-  }]
+
+
 
  router.get('/', (req,res)=>{
-
-    res.send('GET /places')
+    //Not sure if this is where this goes. refer back to activity 3
+    
+    let places = [{
+        name: 'H-Thai-ML',
+        city: 'Seattle',
+        state: 'WA',
+        cuisines: 'Thai, Pan-Asian',
+        pic: 'http://placekitten.com/250/250'
+      }, {
+        name: 'Coding Cat Cafe',
+        city: 'Phoenix',
+        state: 'AZ',
+        cuisines: 'Coffee, Bakery',
+        pic: 'http://placekitten.com/250/250'
+      }]
+    res.render('places/index', {places})
 
  })
 
-router.get('/', (req,res)=>{
+router.get('/new', (req,res)=>{
 
-    res.send('GET /store')
+    res.render('GET /places' )
 
 })
 
