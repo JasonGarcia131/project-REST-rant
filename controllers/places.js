@@ -10,7 +10,8 @@ const router = require('express').Router()
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Thai, Pan-Asian',
-        pic: 'http://placekitten.com/250/250'
+        pic: './img/thai.jpg',
+        //photoBy: 
       }, {
         name: 'Coding Cat Cafe',
         city: 'Phoenix',
@@ -24,8 +25,13 @@ const router = require('express').Router()
 
 router.get('/new', (req,res)=>{
 
-    res.render('GET /places' )
+    res.render('places/new' )
 
+})
+
+router.post('/', (req, res) => {
+  console.log('hello', req.body)
+  res.send('POST /places')
 })
 
 module.exports = router

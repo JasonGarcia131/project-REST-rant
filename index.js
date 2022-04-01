@@ -1,3 +1,5 @@
+//left off on 6.5.2 finished the form
+
 require('dotenv').config()
 
 const express = require('express')
@@ -7,6 +9,7 @@ app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
 app.use(express.static('public'))
 app.use('/places', require('./controllers/places'))
+app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req,res)=>{
 

@@ -10,6 +10,7 @@ let placesFormatted = data.places.map((place)=>{
                 {place.name}
             </h2>
             <img src={place.pic} alt={place.name} />
+            {/* <div> Photo by {place.photoBy} </div> */}
         </div>
     )
 })

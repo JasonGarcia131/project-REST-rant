@@ -1,12 +1,31 @@
+main{
+  
+  text-align: center;
+ 
+}
+
 h1 {
+
     text-align: center;
     color: cornflowerblue;
+    
   }
 
   img{
 
     height: 400px;
     width: auto;
-    text-align: center;
-    margin: auto;
+    
 }
+
+#form-wrapper{
+
+  width: 50%;
+  text-align: left;
+  margin: auto;
+
+}
+
+/* #error-page{
+
+} */

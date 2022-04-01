@@ -11,7 +11,7 @@ function home(){
                     <img src="./img/pizza.jpg" alt="pizza with many ingridients" />
                 </div>
                 <div>
-                    Photo by Chad Montano
+                    Photo by <a href='https://unsplash.com/photos/MqT0asuoIcU'>Chad Montano</a> 
                 </div>
                 <a href="/places">
                 <button className = 'btn-primary'>Places Pages</button>

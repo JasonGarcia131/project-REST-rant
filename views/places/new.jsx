@@ -5,7 +5,7 @@ function new_form(){
 
 return(
 <Def>
-    <main>
+    <main id = 'form-wrapper'>
         <h1>Add a New Place</h1>
         <form action="/places" method='POST'>
             <div className='form-group'>
