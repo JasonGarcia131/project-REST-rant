@@ -1,7 +1,7 @@
 const React = require('react')
 const Def = require('../default.jsx')
 
-function index(data){
+function index(data, index){
     let placesFormatted = data.places.map((place, index) => {
         return (
           <div className="col-sm-6">

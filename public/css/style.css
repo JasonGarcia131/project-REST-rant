@@ -1,6 +1,6 @@
 body {
   background-color: lightblue;
-  text-align: center;
+ 
 }
 
 main {
@@ -8,7 +8,6 @@ main {
   margin-left: 20px;
   background-color: white;
 }
-
 h1 {
 
     text-align: center;
@@ -21,14 +20,6 @@ h1 {
     height: 400px;
     width: auto;
     
-}
-
-#form-wrapper{
-
-  width: 50%;
-  text-align: left;
-  margin: auto;
-
 }
 
 nav {
